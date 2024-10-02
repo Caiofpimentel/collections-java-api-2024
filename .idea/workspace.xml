@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b44b0ac2-1523-4624-91b2-7ad77c2b1d86" name="Changes" comment="Carrinho de compras">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/Pesquisa/CatalogoLivros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list/Pesquisa/Livro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/CarrinhoDeCompra/CarrinhoDeCompras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/OperacoesBasicas/CarrinhoDeCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/CarrinhoDeCompra/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/OperacoesBasicas/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,23 +25,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Caio &lt;caio-pimentel@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Caiofpimentel"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Caiofpimentel&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Caiofpimentel/collections-java-api-2024.git",
-    "accountId": "b8bb06c9-3bf3-4e97-ae16-13e2c9b95b9c"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Caiofpimentel/collections-java-api-2024.git&quot;,
+    &quot;accountId&quot;: &quot;b8bb06c9-3bf3-4e97-ae16-13e2c9b95b9c&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mqt6qzZeq5ZPG2cs3CU6KGhMHK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,15 +58,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CarrinhoDeCompras.executor": "Run",
+    "Application.CatalogoLivros.executor": "Run",
     "Application.ListaTarefa.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "vcs.Git"
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarrinhoDeCompras">
+  <component name="RunManager" selected="Application.CatalogoLivros">
     <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="list.CarrinhoDeCompra.CarrinhoDeCompras" />
       <module name="collections-java-api-2024" />
@@ -70,12 +85,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.ListaTarefa" />
+    <configuration name="CatalogoLivros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.Pesquisa.CatalogoLivros" />
       <module name="collections-java-api-2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="list.OperacoesBasicas.*" />
+          <option name="PATTERN" value="list.Pesquisa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListaTarefa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="list.OperacoesBasicas.CarrinhoDeCompra.ListaTarefa" />
+      <module name="collections-java-api-2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="list.OperacoesBasicas.CarrinhoDeCompra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +120,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalogoLivros" />
         <item itemvalue="Application.CarrinhoDeCompras" />
         <item itemvalue="Application.ListaTarefa" />
         <item itemvalue="Application.Main" />
@@ -99,6 +128,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\caio-\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b44b0ac2-1523-4624-91b2-7ad77c2b1d86" name="Changes" comment="" />
@@ -123,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727822127691</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Carrinho de compras">
+      <option name="closed" value="true" />
+      <created>1727822535289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727822535289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
